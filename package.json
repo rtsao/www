@@ -1,0 +1,19 @@
+{
+  "name": "@rtsao/www",
+  "version": "1.0.0",
+  "description": "My personal website",
+  "author": "Ryan Tsao <ryan.j.tsao@gmail.com>",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build -- --watch",
+    "build": "hokusai --basedir=./ --pagesdir=./src",
+    "predeploy": "npm run build && echo ryantsao.com > build/CNAME",
+    "deploy": "push-dir --dir build --branch gh-pages"
+  },
+  "devDependencies": {
+    "hokusai": "^1.0.0-alpha.4",
+    "push-dir": "^0.2.2"
+  },
+  "license": "UNLICENSED",
+  "private": true
+}
