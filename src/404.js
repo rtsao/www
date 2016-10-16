@@ -4,5 +4,5 @@ export const title = 'ryantsao.com';
 
 export default () =>
   <Container>
-    Page not found.
+    <p>Page not found.</p>
   </Container>

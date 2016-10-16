@@ -34,7 +34,6 @@ const H1 = ({children}, {styletron}) =>
 
 const BlogLink = (props, {styletron}) => {
   const link = <Link to="/blog/">Blog</Link>;
-  console.log(props);
   return true ? <h2 style={{
     display: 'inline',
     fontSize: 'inherit',
