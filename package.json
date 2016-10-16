@@ -6,9 +6,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run build -- --watch",
-    "build": "hokusai --basedir=./ --pagesdir=./src",
-    "predeploy": "npm run build",
-    "deploy": "push-dir --dir build --branch gh-pages"
+    "build": "hokusai --pagesdir=./src"
   },
   "devDependencies": {
     "hokusai": "^1.0.0-alpha.4",
