@@ -7,7 +7,7 @@
   "scripts": {
     "start": "npm run build -- --watch",
     "build": "hokusai --basedir=./ --pagesdir=./src",
-    "predeploy": "npm run build && echo ryantsao.com > build/CNAME",
+    "predeploy": "npm run build",
     "deploy": "push-dir --dir build --branch gh-pages"
   },
   "devDependencies": {
