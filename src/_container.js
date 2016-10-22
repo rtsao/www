@@ -34,12 +34,20 @@ const H1 = ({children}, {styletron}) =>
 
 const BlogLink = (props, {styletron}) => {
   const link = <Link to="/blog/">Blog</Link>;
-  return true ? <h2 style={{
+  return props.isBlog ? <h2 style={{
     display: 'inline',
     fontSize: 'inherit',
     fontWeight: 'inherit'
   }}>{link}</h2> : link;
 }
+
+export const Nav = ({isBlog, children}, {styletron}) =>
+  <nav style={{
+    display: 'inline',
+    ':before': {
+      content: '" / "'
+    }
+  }}>{children}</nav>
 
 export const Header = ({isBlog}, {styletron}) =>
   <header style={{
@@ -48,7 +56,7 @@ export const Header = ({isBlog}, {styletron}) =>
     fontSize: '20px',
     '-webkit-font-smoothing': 'subpixel-antialiased'
   }}>
-  <H1><PlainLink to="/">Ryan Tsao</PlainLink></H1> / <BlogLink isBlog={isBlog} />
+    <H1><PlainLink to="/">Ryan Tsao</PlainLink></H1><Nav><BlogLink isBlog={isBlog} /></Nav>
   </header>
 
 export default ({children, isBlog}, {styletron}) =>
