@@ -9,7 +9,7 @@
     "build": "hokusai --pagesdir=./src"
   },
   "devDependencies": {
-    "hokusai": "1.0.0-alpha.11"
+    "hokusai": "1.0.0-alpha.12"
   },
   "engines": {
     "node": ">=6"
