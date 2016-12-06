@@ -21,9 +21,11 @@ const BlogEntry = ({title, date, pathname}) =>
     marginTop: '0px'
   }}><Anchor to={pathname}>{title}</Anchor></h2><em>{formatDate(date)}</em></li>
 
-const Contents = toc.map(({title, date, pathname}) =>
-  <BlogEntry pathname={pathname} date={date} title={title}/>
-);
+const Contents = toc
+  .sort((a, b) => new Date(b.date) - new Date(a.date))
+  .map(({title, date, pathname}) =>
+    <BlogEntry pathname={pathname} date={date} title={title}/>
+  );
 
 export default (
   <List>{Contents}</List>

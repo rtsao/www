@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 555 354" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:square;stroke-miterlimit:10;">
+    <rect x="35.813" y="202" width="169.188" height="24" style="fill:rgb(126,211,33);fill-opacity:0.101961;"/>
+    <rect x="35.813" y="178" width="169.188" height="24" style="fill:rgb(74,144,226);fill-opacity:0.101961;"/>
+    <rect x="36" y="106" width="169.188" height="24" style="fill:rgb(74,144,226);fill-opacity:0.101961;"/>
+    <rect x="35.813" y="298" width="169.188" height="24" style="fill:rgb(208,2,27);fill-opacity:0.101961;"/>
+    <rect x="35.813" y="275" width="169.188" height="23" style="fill:rgb(126,211,33);fill-opacity:0.101961;"/>
+    <rect x="36" y="82" width="169.188" height="24" style="fill:rgb(208,2,27);fill-opacity:0.101961;"/>
+    <rect x="330" y="190" width="212.52" height="24" style="fill:rgb(208,2,27);fill-opacity:0.101961;"/>
+    <rect x="330" y="166" width="212.52" height="24" style="fill:rgb(74,144,226);fill-opacity:0.101961;"/>
+    <rect x="330" y="214" width="212.52" height="24" style="fill:rgb(126,211,33);fill-opacity:0.101961;"/>
+    <path d="M210,94L325.533,197.98" style="fill:none;stroke:rgb(155,155,155);stroke-width:1px;"/>
+    <path d="M210,94L325.533,197.98L210,94ZM325.533,197.98L319.512,188.525L315.498,192.985L325.533,197.98Z" style="fill:rgb(155,155,155);"/>
+    <path d="M210,94L325.533,197.98M325.533,197.98L319.512,188.525L315.498,192.985L325.533,197.98Z" style="fill:none;stroke:rgb(155,155,155);stroke-width:1px;"/>
+    <path d="M210,118L324.63,175.315" style="fill:none;stroke:rgb(155,155,155);stroke-width:1px;"/>
+    <path d="M210,118L324.63,175.315L210,118ZM324.63,175.315L316.312,167.802L313.629,173.169L324.63,175.315Z" style="fill:rgb(155,155,155);"/>
+    <path d="M210,118L324.63,175.315M324.63,175.315L316.312,167.802L313.629,173.169L324.63,175.315Z" style="fill:none;stroke:rgb(155,155,155);stroke-width:1px;"/>
+    <path d="M210,190L324.029,178.597" style="fill:none;stroke:rgb(155,155,155);stroke-width:1px;"/>
+    <path d="M210,190L324.029,178.597L210,190ZM324.029,178.597L312.984,176.687L313.581,182.657L324.029,178.597Z" style="fill:rgb(155,155,155);"/>
+    <path d="M210,190L324.029,178.597M324.029,178.597L312.984,176.687L313.581,182.657L324.029,178.597Z" style="fill:none;stroke:rgb(155,155,155);stroke-width:1px;"/>
+    <path d="M210,214L324.029,225.403" style="fill:none;stroke:rgb(155,155,155);stroke-width:1px;"/>
+    <path d="M210,214L324.029,225.403L210,214ZM324.029,225.403L313.581,221.343L312.984,227.313L324.029,225.403Z" style="fill:rgb(155,155,155);"/>
+    <path d="M210,214L324.029,225.403M324.029,225.403L313.581,221.343L312.984,227.313L324.029,225.403Z" style="fill:none;stroke:rgb(155,155,155);stroke-width:1px;"/>
+    <path d="M210,286L324.63,228.685" style="fill:none;stroke:rgb(155,155,155);stroke-width:1px;"/>
+    <path d="M210,286L324.63,228.685L210,286ZM324.63,228.685L313.629,230.832L316.312,236.198L324.63,228.685Z" style="fill:rgb(155,155,155);"/>
+    <path d="M210,286L324.63,228.685M324.63,228.685L313.629,230.831L316.312,236.198L324.63,228.685Z" style="fill:none;stroke:rgb(155,155,155);stroke-width:1px;"/>
+    <path d="M210,310L325.533,206.02" style="fill:none;stroke:rgb(155,155,155);stroke-width:1px;"/>
+    <path d="M210,310L325.533,206.02L210,310ZM325.533,206.02L315.498,211.015L319.512,215.475L325.533,206.02Z" style="fill:rgb(155,155,155);"/>
+    <path d="M210,310L325.533,206.02M325.533,206.02L315.498,211.015L319.512,215.475L325.533,206.02Z" style="fill:none;stroke:rgb(155,155,155);stroke-width:1px;"/>
+    <text x="15px" y="74px" style="font-family:'Consolas', monospace;font-size:12px;">{</text>
+    <g>
+        <text x="43px" y="98px" style="font-family:'Consolas', monospace;font-size:12px;">fontSize: &apos;1.6em&apos;,</text>
+        <text x="43px" y="122px" style="font-family:'Consolas', monospace;font-size:12px;">height: &apos;32px&apos;</text>
+    </g>
+    <g>
+        <text x="15px" y="146px" style="font-family:'Consolas', monospace;font-size:12px;">}</text>
+        <text x="15px" y="170px" style="font-family:'Consolas', monospace;font-size:12px;">{</text>
+    </g>
+    <g>
+        <text x="43px" y="194px" style="font-family:'Consolas', monospace;font-size:12px;">height: &apos;32px&apos;,</text>
+        <text x="43px" y="218px" style="font-family:'Consolas', monospace;font-size:12px;">display: &apos;inline-block&apos;</text>
+    </g>
+    <g>
+        <text x="15px" y="242px" style="font-family:'Consolas', monospace;font-size:12px;">}</text>
+        <text x="15px" y="266px" style="font-family:'Consolas', monospace;font-size:12px;">{</text>
+    </g>
+    <g>
+        <text x="43px" y="290px" style="font-family:'Consolas', monospace;font-size:12px;">display: &apos;inline-block&apos;,</text>
+        <text x="43px" y="314px" style="font-family:'Consolas', monospace;font-size:12px;">fontSize: &apos;1.6em&apos;</text>
+    </g>
+    <text x="15px" y="338px" style="font-family:'Consolas', monospace;font-size:12px;">}</text>
+    <g>
+        <text x="340px" y="182px" style="font-family:'Consolas', monospace;font-size:12px;">.a { height: 32px }</text>
+        <text x="340px" y="206px" style="font-family:'Consolas', monospace;font-size:12px;">.b { font-size: 1.6em }</text>
+        <text x="340px" y="230px" style="font-family:'Consolas', monospace;font-size:12px;">.c { display: inline-block }</text>
+    </g>
+    <text x="218px" y="75px" fill="#555" style="font-family:'Consolas-Bold', 'Consolas', monospace;font-weight:700;font-size:10px;">(Virtual classes)</text>
+    <text x="245px" y="115px" style="font-family:'Consolas-Bold', 'Consolas', monospace;font-weight:700;font-size:12px;">&quot;a b&quot;</text>
+    <text x="245px" y="205px" style="font-family:'Consolas-Bold', 'Consolas', monospace;font-weight:700;font-size:12px;">&quot;a c&quot;</text>
+    <text x="245px" y="301px" style="font-family:'Consolas-Bold', 'Consolas', monospace;font-weight:700;font-size:12px;">&quot;b c&quot;</text>
+    <g>
+        <text x="49px" y="36px" style="font-family:'Roboto-Medium', 'Roboto';font-weight:500;font-size:14px;">Source style objects</text>
+    </g>
+    <g>
+        <text x="379px" y="134px" style="font-family:'Roboto-Medium', 'Roboto';font-weight:500;font-size:14px;">Generated CSS</text>
+    </g>
+</svg>

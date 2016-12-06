@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 489 354" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:square;stroke-miterlimit:10;">
+    <path d="M210,102.5L300.201,102.5" style="fill:none;stroke:rgb(155,155,155);stroke-width:1px;"/>
+    <path d="M210,102.5L300.201,102.5L210,102.5ZM300.201,102.5L289.401,99.5L289.401,105.5L300.201,102.5Z" style="fill:rgb(155,155,155);"/>
+    <path d="M210,102.5L300.201,102.5M300.201,102.5L289.401,99.5L289.401,105.5L300.201,102.5Z" style="fill:none;stroke:rgb(155,155,155);stroke-width:1px;"/>
+    <path d="M210,198.5L300.201,198.5" style="fill:none;stroke:rgb(155,155,155);stroke-width:1px;"/>
+    <path d="M210,198.5L300.201,198.5L210,198.5ZM300.201,198.5L289.401,195.5L289.401,201.5L300.201,198.5Z" style="fill:rgb(155,155,155);"/>
+    <path d="M210,198.5L300.201,198.5M300.201,198.5L289.401,195.5L289.401,201.5L300.201,198.5Z" style="fill:none;stroke:rgb(155,155,155);stroke-width:1px;"/>
+    <path d="M210,294.5L300.201,294.5" style="fill:none;stroke:rgb(155,155,155);stroke-width:1px;"/>
+    <path d="M210,294.5L300.201,294.5L210,294.5ZM300.201,294.5L289.401,291.5L289.401,297.5L300.201,294.5Z" style="fill:rgb(155,155,155);"/>
+    <path d="M210,294.5L300.201,294.5M300.201,294.5L289.401,291.5L289.401,297.5L300.201,294.5Z" style="fill:none;stroke:rgb(155,155,155);stroke-width:1px;"/>
+    <text x="15px" y="71px" style="font-family:'Consolas', monospace;font-size:12px;">{</text>
+    <g>
+        <text x="43px" y="95px" style="font-family:'Consolas', monospace;font-size:12px;">fontSize: &apos;1.6em&apos;,</text>
+        <text x="43px" y="119px" style="font-family:'Consolas', monospace;font-size:12px;">height: &apos;32px&apos;</text>
+    </g>
+    <g>
+        <text x="15px" y="143px" style="font-family:'Consolas', monospace;font-size:12px;">}</text>
+        <text x="15px" y="167px" style="font-family:'Consolas', monospace;font-size:12px;">{</text>
+    </g>
+    <g>
+        <text x="43px" y="191px" style="font-family:'Consolas', monospace;font-size:12px;">height: &apos;32px&apos;,</text>
+        <text x="43px" y="215px" style="font-family:'Consolas', monospace;font-size:12px;">display: &apos;inline-block&apos;</text>
+    </g>
+    <g>
+        <text x="15px" y="239px" style="font-family:'Consolas', monospace;font-size:12px;">}</text>
+        <text x="15px" y="263px" style="font-family:'Consolas', monospace;font-size:12px;">{</text>
+    </g>
+    <g>
+        <text x="43px" y="287px" style="font-family:'Consolas', monospace;font-size:12px;">display: &apos;inline-block&apos;,</text>
+        <text x="43px" y="311px" style="font-family:'Consolas', monospace;font-size:12px;">fontSize: &apos;1.6em&apos;</text>
+    </g>
+    <text x="15px" y="335px" style="font-family:'Consolas', monospace;font-size:12px;">}</text>
+    <g>
+        <text x="286px" y="71px" style="font-family:'Consolas', monospace;font-size:12px;">.classA {</text>
+        <text x="314px" y="95px" style="font-family:'Consolas', monospace;font-size:12px;">font-size: 1.6em;</text>
+        <text x="314px" y="119px" style="font-family:'Consolas', monospace;font-size:12px;">height: 32px</text>
+        <text x="286px" y="143px" style="font-family:'Consolas', monospace;font-size:12px;">}</text>
+        <text x="286px" y="167px" style="font-family:'Consolas', monospace;font-size:12px;">.classB {</text>
+        <text x="314px" y="191px" style="font-family:'Consolas', monospace;font-size:12px;">height: 32px;</text>
+        <text x="314px" y="215px" style="font-family:'Consolas', monospace;font-size:12px;">display: inline-block</text>
+        <text x="286px" y="239px" style="font-family:'Consolas', monospace;font-size:12px;">}</text>
+        <text x="286px" y="263px" style="font-family:'Consolas', monospace;font-size:12px;">.classC {</text>
+        <text x="314px" y="287px" style="font-family:'Consolas', monospace;font-size:12px;">display: inline-block;</text>
+        <text x="314px" y="311px" style="font-family:'Consolas', monospace;font-size:12px;">font-size: 1.6em</text>
+        <text x="286px" y="335px" style="font-family:'Consolas', monospace;font-size:12px;">}</text>
+    </g>
+    <text x="221px" y="286px" style="font-family:'Consolas-Bold', 'Consolas', monospace;font-weight:700;font-size:12px;">&quot;classC&quot;</text>
+    <text x="220px" y="191px" style="font-family:'Consolas-Bold', 'Consolas', monospace;font-weight:700;font-size:12px;">&quot;classB&quot;</text>
+    <text x="220px" y="94px" style="font-family:'Consolas-Bold', 'Consolas', monospace;font-weight:700;font-size:12px;">&quot;classA&quot;</text>
+    <g>
+        <text x="49px" y="31px" style="font-family:'Roboto-Medium', 'Roboto';font-weight:500;font-size:14px;">Source style objects</text>
+    </g>
+    <g>
+        <text x="339px" y="31px" style="font-family:'Roboto-Medium', 'Roboto';font-weight:500;font-size:14px;">Generated CSS</text>
+    </g>
+    <rect x="36" y="176" width="169.188" height="48" style="fill:rgb(74,144,226);fill-opacity:0.101961;"/>
+    <rect x="36" y="271" width="169.188" height="48" style="fill:rgb(126,211,33);fill-opacity:0.101961;"/>
+    <rect x="36" y="79" width="169.188" height="48" style="fill:rgb(208,2,27);fill-opacity:0.101961;"/>
+    <rect x="306" y="176" width="169.188" height="48" style="fill:rgb(74,144,226);fill-opacity:0.101961;"/>
+    <rect x="306" y="271" width="169.188" height="48" style="fill:rgb(126,211,33);fill-opacity:0.101961;"/>
+    <rect x="306" y="79" width="169.188" height="48" style="fill:rgb(208,2,27);fill-opacity:0.101961;"/>
+</svg>

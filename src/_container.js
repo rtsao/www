@@ -63,7 +63,7 @@ export default ({children, isBlog}, {styletron}) =>
   <div style={{
     font: '20px/1.5 freight-text-pro, serif',
     color: '#222',
-    maxWidth: '65ch',
+    maxWidth: '62ch',
     margin: '0 auto',
     padding: '12px 52px',
     marginTop: '30vmin',

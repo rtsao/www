@@ -15,8 +15,8 @@ const months = [
 
 export default function formatDate(datestring) {
   const date = new Date(datestring);
-  const month = months[date.getMonth()];
-  const day = date.getDate();
-  const year = date.getFullYear();
+  const month = months[date.getUTCMonth()];
+  const day = date.getUTCDate();
+  const year = date.getUTCFullYear();
   return `${month} ${day}, ${year}`;
 }
