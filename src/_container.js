@@ -67,7 +67,7 @@ export default ({children, isBlog}, {styletron}) =>
     margin: '0 auto',
     padding: '12px 52px',
     marginTop: '30vmin',
-    marginBottom: '30vmin',
+    marginBottom: '8vmin',
     '-webkit-font-smoothing': 'antialiased'
   }}>
     <Header isBlog={isBlog}/>
