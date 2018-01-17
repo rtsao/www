@@ -2078,9 +2078,9 @@ hoek@2.x.x:
   version "2.16.3"
   resolved "https://registry.yarnpkg.com/hoek/-/hoek-2.16.3.tgz#20bb7403d3cea398e91dc4710a8ff1b8274a25ed"
 
-hokusai@1.0.0-alpha.16:
-  version "1.0.0-alpha.16"
-  resolved "https://registry.yarnpkg.com/hokusai/-/hokusai-1.0.0-alpha.16.tgz#f50faced8b007675fe5b4ebfc1a4ce155b6070f5"
+hokusai@1.0.0-alpha.17:
+  version "1.0.0-alpha.17"
+  resolved "https://registry.yarnpkg.com/hokusai/-/hokusai-1.0.0-alpha.17.tgz#ef829c039530fb048bd9e0b6d1787ed44c8ec0e2"
   dependencies:
     babel-loader "^6.2.5"
     babel-plugin-inferno "^1.5.0"
@@ -2097,8 +2097,9 @@ hokusai@1.0.0-alpha.16:
     inferno-component "1.1.0"
     inferno-create-element "1.1.0"
     inferno-server "1.1.0"
+    js-string-escape "^1.0.1"
     js-yaml "^3.6.1"
-    mdast-util-to-hast "^2.0.0"
+    mdast-util-to-hast "^3.0.0"
     minimist "^1.2.0"
     mkdirp "^0.5.1"
     recursive-readdir "^2.0.0"
@@ -2111,7 +2112,7 @@ hokusai@1.0.0-alpha.16:
     typographic-base "^1.0.4"
     unified "^5.0.0"
     unist-util-visit "^1.1.0"
-    webpack "^2.2.0-rc.3"
+    webpack "^2.2.0-rc.4"
     webpack-dev-server "^2.2.0-rc.0"
 
 home-or-tmp@^2.0.0:
@@ -2537,6 +2538,10 @@ isstream@~0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/isstream/-/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
 
+js-string-escape@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/js-string-escape/-/js-string-escape-1.0.1.tgz#e2625badbc0d67c7533e9edc1068c587ae4137ef"
+
 js-tokens@^3.0.0, js-tokens@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-3.0.2.tgz#9866df395102130e38f7f996bceb65443209c25b"
@@ -2733,9 +2738,9 @@ mdast-util-definitions@^1.2.0:
   dependencies:
     unist-util-visit "^1.0.0"
 
-mdast-util-to-hast@^2.0.0:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/mdast-util-to-hast/-/mdast-util-to-hast-2.5.0.tgz#f087844d255c7540f36906da30ba106c0ee5ee2f"
+mdast-util-to-hast@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/mdast-util-to-hast/-/mdast-util-to-hast-3.0.0.tgz#69e367fb2a9eb02474dfc017733b8fd272d55d3a"
   dependencies:
     collapse-white-space "^1.0.0"
     detab "^2.0.0"
@@ -4477,7 +4482,7 @@ webpack-sources@^1.0.1:
     source-list-map "^2.0.0"
     source-map "~0.6.1"
 
-webpack@^2.2.0-rc.3:
+webpack@^2.2.0-rc.4:
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/webpack/-/webpack-2.7.0.tgz#b2a1226804373ffd3d03ea9c6bd525067034f6b1"
   dependencies:
