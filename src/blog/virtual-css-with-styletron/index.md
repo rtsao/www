@@ -5,13 +5,13 @@ date: 2016-12-06
 dom: ../../_dom.js
 ---
 
-## Introducing [Styletron](https://github.com/rtsao/styletron)
+## Introducing [Styletron](https://github.com/styletron/styletron)
 
 Styletron is a CSS-in-JS library built from the ground up for high-performance, designed to work as fast as possible while also producing the smallest possible CSS output.
 
 Most CSS-in-JS libraries convert JS objects containing style declarations into corresponding CSS classes with generated, hashed class names[^1]. In general, this process works well and solves most of the problems of CSS[^2].
 
-[Styletron](https://github.com/rtsao/styletron) takes a different approach. Under the hood it uses a "virtual CSS" engine that abstracts away the underlying CSS, enabling some powerful performance optimizations.
+[Styletron](https://github.com/styletron/styletron) takes a different approach. Under the hood it uses a "virtual CSS" engine that abstracts away the underlying CSS, enabling some powerful performance optimizations.
 
 ### Atomic CSS and virtual classes
 
@@ -71,13 +71,13 @@ Unlike the other libraries, Styletron breaks down the rules and is thus able to 
 
 ### CSS output size
 
-As an analogue for a large CSS-in-JS app, I took the CSS from [uber.com](https://www.uber.com) and [airbnb.com](https://www.airbnb.com), [converted](https://github.com/rtsao/styletron/blob/master/packages/benchmarks/generate-styles.js) the styles into JS object equivalents, and ran them through Styletron, JSS, Glamor, and Aphrodite. Below are file sizes of the resulting CSS output:
+As an analogue for a large CSS-in-JS app, I took the CSS from [uber.com](https://www.uber.com) and [airbnb.com](https://www.airbnb.com), [converted](https://github.com/styletron/styletron/blob/72e8241342015f6246d3ced7ad148bd65a0df30e/packages/benchmarks/generate-styles.js) the styles into JS object equivalents, and ran them through Styletron, JSS, Glamor, and Aphrodite. Below are file sizes of the resulting CSS output:
 
-**uber.com CSS** - [Raw file](https://raw.githubusercontent.com/rtsao/styletron/master/packages/benchmarks/fixtures/css/uber.css)
+**uber.com CSS** - [Raw file](https://github.com/styletron/styletron/blob/72e8241342015f6246d3ced7ad148bd65a0df30e/packages/benchmarks/fixtures/css/uber.css)
 
 ![uber.com CSS comparison chart](./uber-size.svg)
 
-**airbnb.com CSS** - [Raw file](https://raw.githubusercontent.com/rtsao/styletron/master/packages/benchmarks/fixtures/css/airbnb.css)
+**airbnb.com CSS** - [Raw file](https://github.com/styletron/styletron/blob/72e8241342015f6246d3ced7ad148bd65a0df30e/packages/benchmarks/fixtures/css/airbnb.css)
 
 ![airbnb.com CSS comparison chart](./airbnb-size.svg)
 
@@ -97,7 +97,7 @@ The simplest way to use Styletron is in conjunction with the styletron-utils pac
 
 And finally, at the highest level, there's the styletron-react package which contains an interface inspired by the excellent [styled-components](https://github.com/styled-components/styled-components) module for React.
 
-Check out the [GitHub repo](https://github.com/rtsao/styletron) and [styletron.js.org](http://styletron.js.org) to learn more.
+Check out the [GitHub repo](https://github.com/styletron/styletron) and [styletron.js.org](http://styletron.js.org) to learn more.
 
 ## Known issues and trade-offs
 
@@ -107,7 +107,7 @@ While the use of these is generally not needed when using React (where styles ar
 
 **No value fallbacks, yet**
 
-[This is being worked on](https://github.com/rtsao/styletron/issues/6), but is currently not implemented.
+[This is being worked on](https://github.com/styletron/styletron/issues/6), but is currently not implemented.
 
 **Workflow impact with DevTools**
 
