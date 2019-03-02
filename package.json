@@ -9,7 +9,7 @@
     "build": "gatsby build"
   },
   "dependencies": {
-    "@mdx-js/mdx": "0.15.7",
+    "@mdx-js/mdx": "0.20.1",
     "@mdx-js/tag": "0.15.6",
     "core-js": "2.6.5",
     "gatsby": "2.1.19",
