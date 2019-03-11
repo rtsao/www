@@ -10969,13 +10969,13 @@ stylehacks@^4.0.0:
     postcss "^7.0.0"
     postcss-selector-parser "^3.0.0"
 
-styletron-engine-atomic@1.0.13:
-  version "1.0.13"
-  resolved "https://registry.yarnpkg.com/styletron-engine-atomic/-/styletron-engine-atomic-1.0.13.tgz#0c53ec9c39fe153a7359f747ee677d54737cec10"
-  integrity sha512-aN1FKxEZwGwVoHtm9us/LxCKhe/hSQScu+4fZhc9jWa9S3ZX91L1vybrAHqsRYdLgtfmtCwJwfzuX1Nwm0/bxw==
+styletron-engine-atomic@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/styletron-engine-atomic/-/styletron-engine-atomic-1.1.0.tgz#868268394da2b991596c77ec96c80589b5be65ff"
+  integrity sha512-LBG2+hUJoHIgmbv4h+NVYFUW7L3xj++ZgyRmjLsdU80UcpCWejWTbKZNEJgU7KFrQCeNbKNepygq9F9ZxP8c4w==
   dependencies:
     inline-style-prefixer "^4.0.0"
-    styletron-standard "^2.0.1"
+    styletron-standard "^2.0.2"
 
 styletron-react@4.4.5:
   version "4.4.5"
@@ -10985,13 +10985,6 @@ styletron-react@4.4.5:
     create-react-context "^0.2.2"
     prop-types "^15.6.0"
     styletron-standard "^2.0.2"
-
-styletron-standard@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/styletron-standard/-/styletron-standard-2.0.1.tgz#09ea1e339876f56d80e3e0bf1cbc62490c9ac03f"
-  integrity sha512-yLUdUk9HDpXtuORy1VQqdc77idC2ayuTt2/F5FXy66u4VyDSAi4L0MDveZoUnkJf66wMErO8Pb70eHa1J5R8JQ==
-  dependencies:
-    inline-style-prefixer "^4.0.0"
 
 styletron-standard@^2.0.2:
   version "2.0.2"
