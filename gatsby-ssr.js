@@ -18,7 +18,7 @@ export const onRenderBody = ({ bodyComponent, setHeadComponents }, options) => {
             __html: sheet.css,
           }}
           key={index}
-          media={sheet.attrs.media}
+          {...sheet.attrs}
         />
       ))
     : null;
