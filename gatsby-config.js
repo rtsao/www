@@ -32,6 +32,7 @@ module.exports = {
               wrapperStyle: "margin-bottom: 1.0725rem",
             },
           },
+          { resolve: "gatsby-remark-autolink-headers" },
           {
             resolve: "gatsby-remark-prismjs",
             options: {
@@ -40,7 +41,6 @@ module.exports = {
               aliases: {},
             },
           },
-
           { resolve: "gatsby-remark-copy-linked-files" },
           { resolve: "gatsby-remark-smartypants" },
         ],
