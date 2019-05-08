@@ -31,7 +31,7 @@
     "react": "16.8.6",
     "react-dom": "16.8.6",
     "react-helmet": "5.2.0",
-    "styletron-engine-atomic": "1.1.0",
+    "styletron-engine-atomic": "1.1.2",
     "styletron-react": "4.4.6"
   },
   "engines": {
