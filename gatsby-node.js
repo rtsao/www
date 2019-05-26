@@ -1,15 +1,10 @@
 const path = require("path");
-const componentWithMDXScope = require("gatsby-mdx/component-with-mdx-scope");
 
 const createPosts = (createPage, edges) => {
   edges.forEach(({ node }, i) => {
     createPage({
       path: node.fields.slug,
-      component: componentWithMDXScope(
-        path.resolve(`./src/templates/post.js`),
-        node.code.scope,
-        __dirname,
-      ),
+      component: path.resolve(`./src/templates/post.js`),
       context: {
         id: node.id,
       },
