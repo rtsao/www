@@ -26,6 +26,9 @@ export const h3 = styled("h3", {
 export const sup = styled("sup", {
   marginLeft: ".2em",
   marginRight: ".1em",
+  position: "relative",
+  top: "-0.4em",
+  verticalAlign: "baseline",
   // fontFamily: 'soleil, sans-serif',
   // fontStyle: 'normal',
   // fontSize: '30px',
