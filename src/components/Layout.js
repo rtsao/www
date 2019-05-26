@@ -65,6 +65,17 @@ const BlogTitle = styled("h2", {
   fontWeight: "inherit",
 });
 
+const components = {
+  ...mdxComponents,
+  a: props =>
+    props.className === "anchor" ? (
+      // eslint-disable-next-line jsx-a11y/anchor-has-content
+      <a {...props} />
+    ) : (
+      <mdxComponents.a {...props} />
+    ),
+};
+
 export default ({ site, frontmatter = {}, children, isBlogIndex }) => {
   const { title, description: siteDescription } = site.siteMetadata;
 
@@ -85,7 +96,7 @@ export default ({ site, frontmatter = {}, children, isBlogIndex }) => {
         <link rel="stylesheet" href="https://use.typekit.net/oxy1tfg.css" />
       </Helmet>
 
-      <MDXProvider components={mdxComponents}>
+      <MDXProvider components={components}>
         <Container>
           <Header>
             <H1>
