@@ -12182,10 +12182,10 @@ styletron-engine-atomic@1.1.2:
     inline-style-prefixer "^4.0.0"
     styletron-standard "^2.0.3"
 
-styletron-react@5.0.1:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/styletron-react/-/styletron-react-5.0.1.tgz#b923a3d8f46d837f43bc0a1f1429185187419f61"
-  integrity sha512-rwr9fqfFBbkzxOUDxeIzZbhzZfWGmegsUY9Vr+cF0kCpqTl1M3ah5JBuvTECkEtt5v3CXhES19JV8nbIVtt5gQ==
+styletron-react@5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/styletron-react/-/styletron-react-5.1.0.tgz#7b8225f49bb0c6e93c9487dc16e0a5a58eac3a49"
+  integrity sha512-nko7II0osoJcOWze6DbNDUwwh0w61ZmhXpx+3+oz9eCXnTT1wLH/2BcYbV+FjZu00nKn+ndRumGnTMbQCiU8Dw==
   dependencies:
     prop-types "^15.6.0"
     styletron-standard "^2.0.3"
