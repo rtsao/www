@@ -837,6 +837,11 @@
     react-lifecycles-compat "^3.0.4"
     warning "^3.0.0"
 
+"@rtsao/csstype@2.6.5-forked.0":
+  version "2.6.5-forked.0"
+  resolved "https://registry.yarnpkg.com/@rtsao/csstype/-/csstype-2.6.5-forked.0.tgz#b5b4e2a07ad83a91874ebf5fabdb73dc8c1632f6"
+  integrity sha512-0HwnY8uPWcCloTgdbbaJG3MbDUfNf6yKWZfCKxFv9yj2Sbp4mSKaIjC7Cr/5L4hMxvrrk85CU3wlAg7EtBBJ1Q==
+
 "@sindresorhus/is@^0.7.0":
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.7.0.tgz#9a06f4f137ee84d7df0460c1fdb1135ffa6c50fd"
@@ -6486,6 +6491,13 @@ inline-style-prefixer@^4.0.0:
   integrity sha512-N8nVhwfYga9MiV9jWlwfdj1UDIaZlBFu4cJSJkIr7tZX7sHpHhGR5su1qdpW+7KPL8ISTvCIkcaFi/JdBknvPg==
   dependencies:
     bowser "^1.7.3"
+    css-in-js-utils "^2.0.0"
+
+inline-style-prefixer@^5.1.0:
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/inline-style-prefixer/-/inline-style-prefixer-5.1.1.tgz#43074a2c6f2cdb7cb2e8116b23fd04c635188501"
+  integrity sha512-l2zxmdGF/QZNfR3b1hnPr0pkTZUSYYOCCO9zz/AAtaw/LNi1PpjzwumMIz+WKmVhqnWpDdaoqan7yOZM9u2ELQ==
+  dependencies:
     css-in-js-utils "^2.0.0"
 
 inquirer@3.3.0:
@@ -12182,13 +12194,13 @@ styletron-engine-atomic@1.1.2:
     inline-style-prefixer "^4.0.0"
     styletron-standard "^2.0.3"
 
-styletron-react@5.0.1:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/styletron-react/-/styletron-react-5.0.1.tgz#b923a3d8f46d837f43bc0a1f1429185187419f61"
-  integrity sha512-rwr9fqfFBbkzxOUDxeIzZbhzZfWGmegsUY9Vr+cF0kCpqTl1M3ah5JBuvTECkEtt5v3CXhES19JV8nbIVtt5gQ==
+styletron-react@5.2.7:
+  version "5.2.7"
+  resolved "https://registry.yarnpkg.com/styletron-react/-/styletron-react-5.2.7.tgz#7aa283a0b06787024f96289480c60bafed5048cf"
+  integrity sha512-PUUf7MAv9aaO8oT0B4ryPreeLi3BT1kQ7WIDNhkkpLkvCzk+pOvmtaZJJZRIxWPimj8756rLZqpF7/2ssF9KhQ==
   dependencies:
     prop-types "^15.6.0"
-    styletron-standard "^2.0.3"
+    styletron-standard "^3.0.4"
 
 styletron-standard@^2.0.3:
   version "2.0.3"
@@ -12196,6 +12208,14 @@ styletron-standard@^2.0.3:
   integrity sha512-p+BdWQn9oDClym/mGaTcZerQwSklKv/m1cBM2ETLACBsBLHp1f+UqglurxTD6nKv/mrHwXglE3t6qhuhD8dNTA==
   dependencies:
     inline-style-prefixer "^4.0.0"
+
+styletron-standard@^3.0.4:
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/styletron-standard/-/styletron-standard-3.0.4.tgz#2b286752f464e4c9824faaee466013aa8f13cf6b"
+  integrity sha512-AozOYUEtB5m0s+6ieLCObqYsBitLJmag3IoD/yg0Y9X32AYKwtGO4emx9cljD25k2S/R1XmLPgThOU+orjXTKg==
+  dependencies:
+    "@rtsao/csstype" "2.6.5-forked.0"
+    inline-style-prefixer "^5.1.0"
 
 supports-color@^2.0.0:
   version "2.0.0"

@@ -33,7 +33,7 @@
     "react-dom": "16.8.6",
     "react-helmet": "5.2.1",
     "styletron-engine-atomic": "1.1.2",
-    "styletron-react": "5.0.1"
+    "styletron-react": "5.2.7"
   },
   "engines": {
     "node": ">=8"
