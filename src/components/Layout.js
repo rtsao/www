@@ -69,7 +69,9 @@ const components = {
   ...mdxComponents,
   a: (props) =>
     props.className === "anchor" ||
-    (props.href.startsWith("#") && props.className !== "footnote-backref") ? (
+    (props.href.startsWith("#") &&
+      props.className !== "footnote-backref" &&
+      props.className !== "footnote-ref") ? (
       // eslint-disable-next-line jsx-a11y/anchor-has-content
       <a {...props} />
     ) : (
