@@ -1,6 +1,6 @@
 import React from "react";
 import { graphql } from "gatsby";
-import Helmet from "react-helmet";
+import { Helmet } from "react-helmet";
 import { styled } from "styletron-react";
 
 import Layout from "../components/Layout";
@@ -83,6 +83,7 @@ export const pageQuery = graphql`
             title
             date(formatString: "MMMM DD, YYYY")
           }
+          body
         }
       }
     }

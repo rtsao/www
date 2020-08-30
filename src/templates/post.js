@@ -1,6 +1,6 @@
 import React from "react";
 import { graphql } from "gatsby";
-import MDXRenderer from "gatsby-mdx/mdx-renderer";
+import { MDXRenderer } from "gatsby-plugin-mdx";
 import { styled } from "styletron-react";
 
 import { h1 as H1, a as Anchor } from "../components/DOM.js";
@@ -28,7 +28,7 @@ export default function Post({ data: { site, mdx } }) {
       <H1>{mdx.frontmatter.title}</H1>
       <em>{mdx.frontmatter.date}</em>
 
-      <MDXRenderer>{mdx.code.body}</MDXRenderer>
+      <MDXRenderer>{mdx.body}</MDXRenderer>
 
       <Footer>
         <span>
@@ -58,9 +58,7 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
       }
-      code {
-        body
-      }
+      body
     }
   }
 `;

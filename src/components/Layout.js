@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import Helmet from "react-helmet";
+import { Helmet } from "react-helmet";
 import { graphql } from "gatsby";
 import { MDXProvider } from "@mdx-js/react";
 import { styled } from "styletron-react";
@@ -67,8 +67,9 @@ const BlogTitle = styled("h2", {
 
 const components = {
   ...mdxComponents,
-  a: props =>
-    props.className === "anchor" ? (
+  a: (props) =>
+    props.className === "anchor" ||
+    (props.href.startsWith("#") && props.className !== "footnote-backref") ? (
       // eslint-disable-next-line jsx-a11y/anchor-has-content
       <a {...props} />
     ) : (

@@ -3,6 +3,18 @@ margin: 0;
 padding: 0;
 }
 
+.footnote-backref {
+  margin-left: 0.33em;
+}
+
+.footnotes :target {
+  background: #fff3d0;
+}
+
+sup:target {
+  background: #fff3d0;
+}
+
 code[class*="language-"],
 pre[class*="language-"] {
 font-family: "Fira Code", Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace !important;

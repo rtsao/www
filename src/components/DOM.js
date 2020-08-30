@@ -24,7 +24,7 @@ export const h3 = styled("h3", {
 });
 
 export const sup = styled("sup", {
-  marginLeft: ".2em",
+  marginLeft: ".12em",
   marginRight: ".1em",
   position: "relative",
   top: "-0.4em",
@@ -51,10 +51,37 @@ export const a = styled("a", {
   },
 });
 
+export const table = styled("table", {
+  fontFamily: "sans-serif",
+  fontSize: "16px",
+  borderCollapse: "collapse",
+  // margin: "0 -30px",
+  // border: "1px solid black",
+});
+
+export const td = styled("td", {
+  padding: "6px",
+  border: "1px solid black",
+});
+
+export const tr = styled("tr", {
+  // padding: "14px 0",
+});
+
+export const th = styled("th", {
+  fontSize: "13px",
+  // fontFamily: "soleil, sans-serif",
+  fontWeight: 600,
+});
+
 export default {
   h1,
   h2,
   h3,
+  th,
+  tr,
   a,
   sup,
+  td,
+  table,
 };
