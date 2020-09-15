@@ -114,23 +114,21 @@ As a result of the virtual classes, when inspecting elements you will see a clas
 ## Footnotes
 
 [^1]:
+    Most CSS-in-JS libraries, including Aphrodite, Glamor, and JSS, etc. use the following approach:
 
-  Most CSS-in-JS libraries, including Aphrodite, Glamor, and JSS, etc. use the following approach:
+    ![Diagram of 1:1 mapping between style objects and classes](./test1.svg)
 
-  ![Diagram of 1:1 mapping between style objects and classes](./test1.svg)
-
-  The method of scoping the class names varies, but it's a 1:1 mapping between collections of declarations to generated CSS classes.
+    The method of scoping the class names varies, but it's a 1:1 mapping between collections of declarations to generated CSS classes.
 
 [^2]: Christopher Chedeau's [seminal presentation on CSS-in-JS](http://blog.vjeux.com/2014/javascript/react-css-in-js-nationjs.html) provides a good overview of the flaws of CSS and how styles in JavaScript can be a solution.
 [^3]:
+    This is conceptually similar to the [react-native-web](https://github.com/necolas/react-native-web) StyleSheets module (which actually pioneered the idea generating atomic CSS for server-rendered pages), but Styletron takes it further in a few key ways:
 
-  This is conceptually similar to the [react-native-web](https://github.com/necolas/react-native-web) StyleSheets module (which actually pioneered the idea generating atomic CSS for server-rendered pages), but Styletron takes it further in a few key ways:
+    1. Styletron works for all styles -- both static and dynamic. react-native-web StyleSheets are limited to static styles that can be resolved outside of render.
 
-  1. Styletron works for all styles -- both static and dynamic. react-native-web StyleSheets are limited to static styles that can be resolved outside of render.
+    2. react-native-web StyleSheets only works server-side; on the client, vanilla React inline styles are used.
 
-  2. react-native-web StyleSheets only works server-side; on the client, vanilla React inline styles are used.
-
-  3. react-native-web lacks support for media queries and pseudo classes, Styletron supports both.
+    3. react-native-web lacks support for media queries and pseudo classes, Styletron supports both.
 
 [^4]: One reason for using deterministic hashing is for consistency between server and client renders. Because Styletron CSS output consists of only single-declaration atomic classes, it is essentially a full serialization of the declaration cache from the server. As a result, the server-rendered CSS can be efficiently deserialized to fully hydrate the declaration cache state on the client.
 [^5]: The one area where this is useful is combining descendant combinators with pseudo classes, the most common use case being where hovering a parent triggers a style change in a descendant node. However, this behavior be implemented in JavaScript with event listeners and explicit state changes if needed.
