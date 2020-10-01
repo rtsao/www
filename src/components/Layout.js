@@ -40,6 +40,12 @@ const FancyLink = styled(Link, {
   },
 });
 
+const PreventScrollbarShift = styled("div", {
+  "@media screen and (min-width: 820px)": {
+    paddingLeft: "calc(100vw - 100%)",
+  },
+});
+
 const Container = styled("div", {
   font: "20px/1.5 freight-text-pro, serif",
   color: "#222",
@@ -100,24 +106,26 @@ export default ({ site, frontmatter = {}, children, isBlogIndex }) => {
       </Helmet>
 
       <MDXProvider components={components}>
-        <Container>
-          <Header>
-            <H1>
-              <PlainLink to="/">Ryan Tsao</PlainLink>
-            </H1>
-            <Nav>
-              {isBlogIndex ? (
-                <BlogTitle>
-                  <PlainLink to="/blog">Blog</PlainLink>
-                </BlogTitle>
-              ) : (
-                <FancyLink to="/blog">Blog</FancyLink>
-              )}
-            </Nav>
-          </Header>
+        <PreventScrollbarShift>
+          <Container>
+            <Header>
+              <H1>
+                <PlainLink to="/">Ryan Tsao</PlainLink>
+              </H1>
+              <Nav>
+                {isBlogIndex ? (
+                  <BlogTitle>
+                    <PlainLink to="/blog">Blog</PlainLink>
+                  </BlogTitle>
+                ) : (
+                  <FancyLink to="/blog">Blog</FancyLink>
+                )}
+              </Nav>
+            </Header>
 
-          {children}
-        </Container>
+            {children}
+          </Container>
+        </PreventScrollbarShift>
       </MDXProvider>
     </Fragment>
   );
