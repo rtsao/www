@@ -30,8 +30,8 @@
     "gatsby-transformer-remark": "2.8.34",
     "gatsby-transformer-sharp": "2.5.14",
     "prismjs": "1.21.0",
-    "react": "16.13.1",
-    "react-dom": "16.13.1",
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
     "react-helmet": "6.1.0",
     "styletron-engine-atomic": "1.4.6",
     "styletron-react": "5.2.7"
